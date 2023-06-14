@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>KayitEkrani</class>
+ <widget class="QWidget" name="KayitEkrani">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>424</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pbKayit">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>290</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Kayıt</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbGeri">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>370</y>
+     <width>71</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Geri</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelDurum">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>330</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>90</y>
+     <width>191</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLineEdit" name="lneYKadi"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lneYKsoyadi"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lneYKsifre"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lneYKtc"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lneYKtlbakiye"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lneYKdovizbakiye"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>90</y>
+     <width>131</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label1">
+      <property name="text">
+       <string>Kullanici Adı</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label1_2">
+      <property name="text">
+       <string>Kullanici Soy Adı</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label3">
+      <property name="text">
+       <string>Kullanici Şifre</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label4">
+      <property name="text">
+       <string>Kullanici TC</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label2">
+      <property name="text">
+       <string>Kullanici TL Bakiye</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label2_2">
+      <property name="text">
+       <string>kullanici Dollar Bakiye</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
